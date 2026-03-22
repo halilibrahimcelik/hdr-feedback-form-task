@@ -29,7 +29,7 @@ const RatingComponent: React.FC<Props> = ({
         value={rating}
         onChange={onChange}
       />
-      <Tooltip placement="left-start" title={labelTooltipContext}>
+      <Tooltip placement={"auto"} title={labelTooltipContext}>
         <Typography variant="body1" color="primary" component="legend">
           {label} <TipsAndUpdatesIcon fontSize="inherit" />
         </Typography>
