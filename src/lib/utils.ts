@@ -1,4 +1,4 @@
-const mockDelay = (ms: number = 1000): Promise<void> => {
+const mockDelay = (ms: number = 1500): Promise<void> => {
   return new Promise((resolve) => setTimeout(resolve, ms));
 };
 const debounce = <T extends (...args: string[]) => void>(
